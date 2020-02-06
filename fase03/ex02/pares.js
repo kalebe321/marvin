@@ -1,10 +1,12 @@
-function  parOuImpar(num,num2) {
-    var  numero1  =  num;
+function  parOuImpar(num,num2){
+    var numero = num % 2 ;
+    var numero2 = num2 % 2;
+    var total = numero || numero2;
     
-    if(numero1 % 2 === 0){
-        return ("Os numeros são pares")
+    if(total === 0){
+        return( "Os numeros são pares")
     }
     else{
-        return ("Os numeros não são pares")
+        return("Os numeros não são pares")
     }
 }
