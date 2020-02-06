@@ -1,14 +1,7 @@
-function ateZero(numero){
-    var a = 0
-    while(a <= numero){
-        console.log(a)
-        a++
+function entreNumeros(min,max){
+    var c = min
+    while(c <= max){
+        console.log(c)
+        c++
     }
-    if(numero <= 0){
-    while(a >= numero){
-        console.log(numero)
-        numero++
-    }
-  }
 }
-
